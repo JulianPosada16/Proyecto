@@ -1,0 +1,189 @@
+*{
+	font-family: 'Fredoka One', cursive;
+}
+
+.navbar {
+	box-shadow: 2px 2px 5px #000;
+	opacity: .9;
+	height: 6.2em;
+}
+
+.navbar .nav-item .nav-link {
+	color: #f60;
+	font-size: 1.2em;
+} 
+
+.main-header {
+	position: relative;
+	background-image: url("../img/archive.jpg");
+	background-size: cover;
+	min-height: 426px;
+}
+
+.background-overlay {
+	position: absolute;
+	background: rgba(255, 102, 0, .5);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+footer {
+	background: #f70;
+	height: 84px;
+	text-align: center;
+	list-style: none;
+	text-decoration: none;
+}
+
+/* LOGIN AND REGISTER */
+
+.container{
+height: 50%;
+align-content: center;
+}
+
+.card{
+height: 350px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.social_icon span{
+	font-size: 60px;
+	margin-left: 10px;
+	color: #f60;
+}
+	
+.social_icon span:hover{
+	color: white;
+	cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+	position: absolute;
+	right: 15px;
+	top: -15px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #f60;
+color: black;
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 15px;
+height: 15px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #f60;
+width: 130px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: #fff;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+
+.ini-sesion{
+	background: #f60;
+	color: #000;
+	margin-left: 65%;
+}
+
+.ini-sesion:hover{
+	background: #fff;
+	color: #000;
+}
+
+.ini-regis{
+	background: #f60;
+	color: #000;
+	margin-top: 0;
+	margin-left: 70%;
+}
+
+.ini-regis:hover{
+	background: #fff;
+	color: #000;
+}
+
+
+.insta, .insta:visited {
+	background: #AC38B9;
+}
+
+.insta:hover, .insta:active{
+	background: #CF2EE2;
+}
+
+.modal-login {
+	height: 350px;
+	margin-top: 25%;
+	width: 400px;
+	background-color: rgba(0,0,0,0.5) !important;
+}
+
+.modal-title {
+	color: #fff;
+}
+
+.lbl-recordarme {
+	color: #fff;
+}
+
+.modal-footer{
+	text-align: left;
+	color: #fff;
+	padding: 5px;
+}
+
+.input-group-text {
+	background: #f60;
+	color: #fff;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+	background-color: #f60 !important;
+}
+
+.regis{
+	margin-right: 20%;
+}
+
+.rec-contra{
+	margin-right: 30%;
+}
+
+.link-modal-footer {
+	color: #f60;
+}
+
+.logo-modal{
+	width: 3em;
+}
